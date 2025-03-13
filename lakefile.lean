@@ -1,11 +1,11 @@
 import Lake
 open Lake DSL
 
-package "lean_test_4160" where
+package "lean_test_v4160" where
   version := v!"0.1.0"
 
 @[default_target]
-lean_lib «LeanTest4160» where
+lean_lib «LeanTestV4160» where
   -- add library configuration options here
 
 require mathlib from git
