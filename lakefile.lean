@@ -14,5 +14,4 @@ require mathlib from git
 require REPL from git
   "https://github.com/leanprover-community/repl.git" @ "v4.16.0"
 
-require jixia from git
-  "https://github.com/frenzymath/jixia.git" @ "v4.16.0"
+require jixia from "../jixia-aug"
